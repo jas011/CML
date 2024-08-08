@@ -60,8 +60,17 @@
         </div>
       </div>
     </section>
-
-    <section class="third">
+    <section class="Events" >
+      <div class="container a" style="width: 100%;height: 876px;border-radius: 0;background: none; "  data-color="black"> 
+        <div class="head"style="background: none;"> 
+          <h1 class="event"style="color:white;padding">Events</h1>
+          <h6>Center for multi-faceted learning keeps on conducting these type of events through out session <br> which will enhance your knowlegde,interpersonal skills and grow yourself more .</h6>
+          <h6><a href="" ><u>see all events</u></a></h6>
+      </div>
+         
+      </div>
+    </section>
+    <section class="third" style="width: 100%;border-radius: 0;background: white; ">
       <div class="container sec">
         <div class="head">
           <h1 class="success">we <span>never</span> dreamed about success.<br>
@@ -72,14 +81,7 @@
       </div>
       </div>
     </section>
-    <section class="fourth" >
-      <div class="container a" style="width: 100%;height: 876px;"  data-color="black"> 
-        <div class="head">
-          <h1 class="event"style="color:white;padding">Events</h1>
-      </div>
-         
-      </div>
-    </section>
+    
     <section class="fifth">
       <div class="container sec" style="margin: auto auto;">
         <div class="head">
@@ -89,7 +91,8 @@
       </div>
     </section>
     <footer>
-      <div class="container sec" style="flex-direction: column;">
+      <div class="container sec" style="flex-direction: column;    margin: 47px auto;
+">
         <hr>
         <div class="box">
         <div class="logoico">
@@ -163,14 +166,14 @@ animate(e);
 function animate (section) {
   var color = section.getAttribute("data-color");
   
-  gsap.to(section, {
+  gsap.to(document.body, {
     backgroundColor: color,
     ease: "power1.inOut",
     scrollTrigger: {
       trigger: section,
-      start: "top 40%",
-      end: "top 30%",
-      markers: true,
+      start: "top 40%", 
+      end: "top 40%",
+      markers: false,
       toggleActions: "play  reverse"
     }
   });
