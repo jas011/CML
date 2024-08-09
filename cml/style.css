@@ -1,0 +1,297 @@
+
+      @font-face {
+        font-family: oddlini;
+        src: url(oddlini-regular-ultra-expanded.ttf);
+      }
+      @font-face {
+        font-family: biennale;
+        src: url(Fontspring-DEMO-biennale-regular.otf);
+      }
+        body,*{
+            padding: 0;
+            margin: 0;
+            
+        }
+        .navbar {
+    display: flex;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.logo {
+    aspect-ratio: 1/1;
+    height: 73px;
+}
+
+.logo {
+  flex: 1;
+}
+
+.links {
+  flex: 3;
+}
+
+.links ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.links li {
+  margin: 0 10px;
+}
+
+.links a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.demo {
+  flex: 1;
+  text-align: right;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.Patungans{
+  color: black;
+  text-decoration: none;
+}
+
+.container {
+    background: #F5F4E7;
+    width: 86%;
+    height: auto;
+    margin: 75px auto;
+    border-radius: 60px;
+    display: flex;
+}
+.head {
+    text-align: center;
+    padding: 80px;
+    margin: auto;
+}
+.head h1{
+    font-size: 128px;
+}
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.backimg {
+    background: black;
+    width: 273;
+    height: 112;
+    border-radius: 56px;
+}
+.row4.row {
+    margin: 50 auto;
+    text-align: center;
+    width: 800px;
+}
+
+h2 {
+    font-size: 96px;
+    color: #F5643C;
+}
+h1,h2{
+  font-family: oddlini;
+}
+.row>p,li>a,.button{
+  font-family: biennale;
+}
+
+.headimg{
+  height: 328;
+  width: 970;
+  background:#ccc;
+  margin: 38px auto;
+  border-radius: 175px;
+}
+.para{
+  width:75%;
+  margin: auto;
+  font-family: oddlini;
+}
+.sec {
+    background: none;
+    margin-top: 65px;
+}
+h3 {
+    font-weight: 100;
+    font-size: 20;
+}
+h1.success {
+    text-transform: capitalize;
+}
+h1.success>span {
+    background: aquamarine;
+    border-radius: 85px;
+    padding: 26px 28px 0px 28px;
+  }
+
+  .fifth,footer{
+    background: #1D2026;
+  }
+  a.join {
+    padding:41px 59px 28px;
+    background-color:#4967ff;
+    border-radius: 91px;
+   }
+  .join>span{
+    font-family: oddlini;
+    font-size: 32px;
+    color:#c1fd33;
+    
+  }
+  a{
+    text-decoration: none;
+  }
+  .t>h4,h5{
+    color:#fff;
+    font-weight: 100;
+  }
+  h4{
+    font-size: 40;
+    font-family: oddlini;
+  }
+  h5{
+    font-size: 16;
+    font-family: biennale;
+  }
+  h6{
+    font-size: 13;
+    font-family: oddlini;
+  }
+  .navl h3 {
+    color: #fff;
+    font-family: biennale;
+    margin-bottom: 10px;
+}
+  ol {
+    display: flex;
+    row-gap: 4px;
+    list-style: none;
+    flex-direction: column;
+}
+.pglinks {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 37px;
+}
+.l {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 80px;
+}
+.t{
+  align-self:center;
+}
+.navl  a{
+  color: #fff;
+  font-size: 14px;
+}
+.cc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 92%;
+    margin: auto;
+}
+h6 a,div h6{
+  color: #fff;
+  font-weight: 100;
+}
+hr{
+  background: beige;
+   margin: auto;
+    width: 92%;
+}
+footer {
+    background: #1D2026;
+    padding-top: 35px; 
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 92%;
+    margin:23px auto;
+}
+.inp {
+    width: 352px;
+    height: 52px;
+    padding: 21px  ;
+    border-radius: 26px;
+    background-color: #fff;
+    border: none;
+    border-width: 0px;
+    outline: none;
+}
+::placeholder {
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+  font-family:oddlini;
+}
+input[type="button"] {
+    width: 100px;
+    height: 37px;
+    flex-grow: 0;
+    font-family: oddlini;
+    padding: 14px 12px 23px;
+    border-radius: 26px;
+    background-color: #c1fd33;
+    border-width: 0px;
+    border: none;
+}
+.logoico{
+  display: flex;
+    gap: 80px;
+}
+.svg {
+  height: 171px;
+  width: 171px;
+  position: fixed;
+  right: 26px;
+  bottom: 26px;
+}
+svg {
+    height: 171px;
+    position: absolute;
+    animation: rotate 5s infinite linear;
+    transition: scale 1s;
+}
+.sun {
+    height: 130px;
+    left: 20px;
+    top: 20px;
+    border-radius: 100px;
+    position: absolute;
+}
+
+@keyframes rotate {
+0% {
+    transform: rotate(0deg);
+}
+100% {
+    transform: rotate(360deg);
+}
+}
+
+svg:hover{
+    scale:1.2;
+}
